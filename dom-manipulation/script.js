@@ -64,6 +64,7 @@ function filterQuotes() {
     : quotes.filter(quote => quote.category === selectedCategory);
 
   // Update the quote display (this example just shows the first matching quote)
+    "syncQuotes"
   if (filteredQuotes.length > 0) {
     document.getElementById('quoteDisplay').innerText = "${filteredQuotes[0].text}" - ${filteredQuotes[0].category};
   } else {
