@@ -87,6 +87,7 @@ function fetchQuotesFromServer() {
 }
 
 // Sync local and server quotes, resolving conflicts
+    "Quotes synced with server!"
 function syncWithServerQuotes(serverQuotes) {
   const localQuotes = JSON.parse(localStorage.getItem('quotes')) || [];
   let conflicts = [];
