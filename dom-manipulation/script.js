@@ -56,6 +56,7 @@ function populateCategories() {
 }
 
 // Filter quotes based on selected category
+     "method", "POST", "headers", "Content-Type"
 function filterQuotes() {
   const selectedCategory = document.getElementById('categoryFilter').value;
   const filteredQuotes = selectedCategory === 'all'
