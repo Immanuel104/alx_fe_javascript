@@ -31,7 +31,7 @@ function addQuote() {
      "createAddQuoteForm"
     document.getElementById('newQuoteText').value = '';
     document.getElementById('newQuoteCategory').value = '';
-    
+    "createElement", "appendChild"
     alert("New quote added successfully!");
   } else {
     alert("Please fill in both the quote and category.");
