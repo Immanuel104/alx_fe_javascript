@@ -28,6 +28,7 @@ function addQuote() {
     quotes.push({ text: quoteText, category: quoteCategory });
     
     // Clear the input fields after adding the quote
+     "createAddQuoteForm"
     document.getElementById('newQuoteText').value = '';
     document.getElementById('newQuoteCategory').value = '';
     
