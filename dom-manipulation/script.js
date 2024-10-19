@@ -33,6 +33,7 @@ function addQuote() {
 }
 
 // Show a random quote
+     "application/json", "Blob"
 function showRandomQuote() {
   const randomIndex = Math.floor(Math.random() * quotes.length);
   const randomQuote = quotes[randomIndex];
