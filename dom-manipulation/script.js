@@ -71,6 +71,7 @@ function filterQuotes() {
 }
 
 // Syncing with Server (New Feature)
+   "await", "async"
 function fetchQuotesFromServer() {
   return fetch('https://jsonplaceholder.typicode.com/posts')
     .then(response => response.json())
